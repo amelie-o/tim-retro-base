@@ -1,0 +1,20 @@
+.header-principal{
+  background-color: var(--couleur-noir);
+
+  height: 73px;
+  width: 100%;
+
+  position: fixed;
+  top:0;
+  left:0;
+
+  z-index: 999;
+}
+
+.header-principal div{
+  height: 73px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

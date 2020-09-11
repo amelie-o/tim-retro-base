@@ -1,0 +1,45 @@
+.interet{
+  background-image: url("../images/bg-interet.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+
+  h3{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 54px;
+  text-transform: uppercase;
+
+  padding-top: 66px;
+}
+
+  .conteneur .cartes{
+    padding-bottom: 82px;
+    margin-top: 58px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .carte{
+    background: var(--couleur-blanc);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+
+    margin: 5px;
+
+    width: 352px;
+
+  }
+  img{
+    width: 151px;
+    height: 151px;
+  }
+
+  h4{
+    font-weight: bold;
+  }
+
+}

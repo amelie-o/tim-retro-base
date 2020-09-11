@@ -1,0 +1,52 @@
+.hero{
+  height: 80vh;
+
+  background-color: var(--couleur-noir);
+
+  position: relative;
+
+  video{
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  }
+
+    .content{
+    height: 100%;
+    width: 100%;
+
+    color: var(--couleur-blanc);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+
+
+  p, a{
+    font-size: 1.5rem;
+  }
+
+}
+
+.hero::after{
+     content: "";
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+
+     height: 100%;
+     width: 100%;
+
+     background: var(--degrade-principal);
+   }
